@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# Private RSA keys
+keys/*.pem
+
+# TLS certificates
+certs/*.crt
+certs/*.key
+
+# Received files
+received/*
+!received/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
